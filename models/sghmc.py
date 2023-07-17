@@ -7,8 +7,8 @@ from botorch.posteriors import Posterior
 from models.model import Model
 from torch import Tensor
 
-from pybnn.pybnn.bohamiann import Bohamiann
-from pybnn.pybnn.util.layers import AppendLayer
+from pybnn.bohamiann import Bohamiann
+from pybnn.util.layers import AppendLayer
 
 from .utils import RegNet
 
